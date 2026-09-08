@@ -23,7 +23,7 @@ This is a classical microprocessor design with CPU, I/O, RAM and ROM but with on
 - Bill of Materials for Simple80
 
 ### Software
-Simple80 rev1 is software compatible with Simple80. Please see Software section of Simple80.
+Simple80 rev1 is software compatible with Simple80. Please see [Software](../Rev0/software) section of Simple80 rev0.
 
 ### Manuals
 [Pictorial assembly guide](manuals/Pictorial_assembly_guide.md) for Simple80, rev1.2
