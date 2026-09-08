@@ -13,11 +13,13 @@ This design was inspired by low-cost Z80 kit listed on eBay. The motivation is t
 - No glue logic design
 ### Theory of operation
 This is a classical microprocessor design with CPU, I/O, RAM and ROM but with one unusual feature: To keep the part count at minimal, both RAM and ROM are chip selected when Z80 is accessing the memory space. To boot up, only ROM's output enable is asserted at reset; In this mode RAM is selected but write-only; the first routine in ROM firmware is to read its own code and write it back into the same location for the entire ROM program; this unusual operation does not affect the read-only ROM, but duplicate the ROM program into the write-only RAM. When the duplication operation is completed, the firmware enable the RAM's output enable and disable ROM's output enable so now the program is running in RAM.
-
+![rev0mb](simple80_rev0_topview_mb.jpg)
 ### Design Information
 - Schematic of Simple80 Motherboard
 - PC board Gerber files of Simple80 motherboard. The pc boards were made by JLCPCB
 - Bill of Materials for Simple80
+
+![simplecf_top](simplecf_rev0_topview.jpg)
 - Schematic of SimpleCF, a simple compact flash interface for Simple80
 
 PC board Gerber files of SimpleCF, a simple compact flash interface for Simple80
