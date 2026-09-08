@@ -26,5 +26,5 @@ This is a classical microprocessor design with CPU, I/O, RAM and ROM but with on
 Simple80 rev1 is software compatible with Simple80. Please see Software section of Simple80.
 
 ### Manuals
-Pictorial assembly guide for Simple80, rev1.2
+[Pictorial assembly guide](manuals/Pictorial_assembly_guide.md) for Simple80, rev1.2
 
