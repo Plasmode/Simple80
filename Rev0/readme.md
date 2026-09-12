@@ -45,5 +45,5 @@ For TeraTerm users this [zipped file](software/simple80_auto_install.zip) contai
 - [Instruction](manual/install_compile_cpm3.md) on compiling and installing CP/M3 on Simple80.
 
 ### Simple80 Applications
-- Playing "BadApple!" on Simple80 by replacing 128KB RAM with VGAxRAM
+- [Playing "BadApple!"](software/BadApple_on_Simple80.md) on Simple80 by replacing 128KB RAM with VGAxRAM
 ![badappleGIF](software/simple80_badapple_14mhz_put_syscall.gif)
