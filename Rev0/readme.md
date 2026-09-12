@@ -38,9 +38,9 @@ This is a classical microprocessor design with CPU, I/O, RAM and ROM but with on
 - [CP/M 3 distribution files](https://github.com/Plasmode/Simple80/blob/main/Rev0/software/simple80_software__cmp3_distribution_files.zip). These are CPM3 executables as distributed by Digital Research. The Simple80 version of cpm3.sys is included.
 
 ### Instructions and Manuals
-- Getting Started with Simple80
+- [Getting Started](manual/Getting_started.md) with Simple80
 
-For TeraTerm usersthis zipped file contains all CP/M software above plus a TeraTerm macro file that will automatically install all CP/M software in a new CF disk. Unzip the files in C;\teraterm\simple80 and run “newcf.ttl” macro in TeraTerm.
+For TeraTerm users this [zipped file](software/simple80_auto_install.zip) contains all CP/M software above plus a TeraTerm macro file that will automatically install all CP/M software in a new CF disk. Unzip the files in C;\teraterm\simple80 and run “newcf.ttl” macro in TeraTerm.
 
 - Instruction on compiling and installing CP/M3 on Simple80.
 
