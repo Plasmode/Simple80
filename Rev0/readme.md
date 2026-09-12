@@ -31,11 +31,11 @@ This is a classical microprocessor design with CPU, I/O, RAM and ROM but with on
 - [XMODEM](https://github.com/Plasmode/ZRCC/blob/main/rev1.0_rev1.1/software/cpm_software_xmodem.hex) is the file transfer program to bring in all CP/M programs from PC to Z80SBC64. While in monitor, send XMODEM.HEX as Intel Hex file, type 'b2' to boot into CP/M2.2, then type 'save 17 xmodem.com'. XMODEM.COM will be created as the first file on the CP/M disk. To invoke XMODEM to receive files, type 'xmodem filename /r' and go to the terminal program to send file via xmodem.
 - [CPM22DRI](https://github.com/Plasmode/ZRCC/blob/main/rev1.0_rev1.1/software/cpm22dri.zip) is system files for CP/M2.2. Unzip the file to CPM22DRI.ARJ then use XMODEM to transfer it to CP/M. Once transferred, use unarj.com to decompress the files. CPM22DRI image is created using cpmtools.
 - [unarj.com](https://github.com/Plasmode/ZRCC/blob/main/rev1.0_rev1.1/software/unarj.zip) is the CP/M program that decompresses CPM3ALL.ARJ and CPM22DRI.ARJ above. The command is “unarj e filename”
-- Zorkall is Zork1, Zork2, and Zork3 compressed with arj. Use unarj.com above to decompress.
-- HTC309 is version 3.09 of HiTech C that has been released into publica domain. It is compressed with arj, use unarj.com above to decompress
-- CPM3, cbios3, non-banked version. A hardware bug in Simple80 prevents it from having banked memory.
-- CPM3 loader. Load CPMLDR.HEX at the monitor and type 'g 1100' to start CP/M3.
-- CP/M 3 distribution files. These are CPM3 executables as distributed by Digital Research. The Simple80 version of cpm3.sys is included.
+- [Zorkall](https://github.com/Plasmode/ZRCC/blob/main/rev1.0_rev1.1/software/CPM_zorkall.zip) is Zork1, Zork2, and Zork3 compressed with arj. Use unarj.com above to decompress.
+- [HTC309](https://github.com/Plasmode/ZRCC/blob/main/rev1.0_rev1.1/software/CPM_htc309.zip) is version 3.09 of HiTech C that has been released into publica domain. It is compressed with arj, use unarj.com above to decompress
+- CPM3, [cbios3](https://github.com/Plasmode/Simple80/blob/main/Rev0/software/simple80_software_cpm3_cbios3_scb.zip), non-banked version. A hardware bug in Simple80 prevents it from having banked memory.
+- [CPM3 loader](https://github.com/Plasmode/Simple80/blob/main/Rev0/software/simple80_software_cpm3_ldrbios.zip). Load CPMLDR.HEX at the monitor and type 'g 1100' to start CP/M3.
+- [CP/M 3 distribution files](https://github.com/Plasmode/Simple80/blob/main/Rev0/software/simple80_software__cmp3_distribution_files.zip). These are CPM3 executables as distributed by Digital Research. The Simple80 version of cpm3.sys is included.
 
 ### Instructions and Manuals
 - Getting Started with Simple80
