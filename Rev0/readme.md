@@ -42,7 +42,7 @@ This is a classical microprocessor design with CPU, I/O, RAM and ROM but with on
 
 For TeraTerm users this [zipped file](software/simple80_auto_install.zip) contains all CP/M software above plus a TeraTerm macro file that will automatically install all CP/M software in a new CF disk. Unzip the files in C;\teraterm\simple80 and run “newcf.ttl” macro in TeraTerm.
 
-- Instruction on compiling and installing CP/M3 on Simple80.
+- [Instruction](manual/install_compile_cpm3.md) on compiling and installing CP/M3 on Simple80.
 
 ### Simple80 Applications
 - Playing "BadApple!" on Simple80 by replacing 128KB RAM with VGAxRAM
