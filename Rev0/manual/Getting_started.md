@@ -21,7 +21,7 @@ Type 't' follow by carriage return to do memory test. It should print 'OK' every
 ### Prepare CF disk for CP/M2.2
 Format the CF disk by type 'x' follow by drive letters 'A', 'B', 'C', 'D' in **upper case**. Please note this will erase whatever files that was in the CF disk.
 
-Send [cpm22all.hex](https://github.com/Plasmode/Simple80/blob/main/Rev0/software/simple80_rev0_cpm22.zip) to Simple80. In TeraTerm 'send' means File → Send file… → pick the file in drop down menu.
+Send [cpm22all.hex](../software/simple80_rev0_cpm22.zip) to Simple80. In TeraTerm 'send' means File → Send file… → pick the file in drop down menu.
 
 Once send is completed, type 'c2' followed by carriage return to save cpm22all in CF disk.
 
@@ -34,15 +34,15 @@ a>
 ```
 Once in CP/M environment, press reset button to return to Simple80 monitor.
 
-In Simple80 monitor, send xmodem.hex.
+In Simple80 monitor, send [xmodem.hex](https://github.com/Plasmode/ZRCC/blob/main/rev1.0_rev1.1/software/cpm_software_xmodem.hex).
 
 Once send is completed, type 'b2' to enter CP/M2.2. At CP/M command prompt, type 'save 17 xmodem.com' to save RAM image as xmodem.com. This will create the first file on the new CF disk.
 
 xmodem is used to transfer all subsequent files to the new CF disk. The command is “xmodem filename /r”. Start xmodem transfer in TeraTerm: File→Transfer→XMODEM→Send and pick the file to send.
 
-File file to transfer via xmodem is unarj.com ← please note this file needs to be unzipped first into unarj.com
+File file to transfer via xmodem is [unarj.com](https://github.com/Plasmode/ZRCC/blob/main/rev1.0_rev1.1/software/unarj.zip) ← please note this file needs to be unzipped first into unarj.com
 
-Second file to transfer is cpm22dri.arj ← please note this file needs to be unzipped first into cpm22dri.arj
+Second file to transfer is [cpm22dri.arj](https://github.com/Plasmode/ZRCC/blob/main/rev1.0_rev1.1/software/cpm22dri.zip) ← please note this file needs to be unzipped first into cpm22dri.arj
 
 cpm22dri.arj is compressed CP/M22 distribution. To uncompress it, type 'unarj e cpm22dri'. Once the decompression is done, CP/M2.2 is ready to run!
 
