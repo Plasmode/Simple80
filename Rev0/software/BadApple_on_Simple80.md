@@ -12,18 +12,16 @@ Discussion about VGAxRAM on Simple80 can be found [here](https://groups.google.c
 ![badapple_animated](simple80_badapple_14mhz_put_syscall.gif)
 
 Software
-BadApple image file. This must be first file of a newly formatted CP/M drive D. This forces the file to be contiguous and reside on CF track $c0, sector $20
+[BadApple image file](badapple_128x96_3109_images.zip). This must be first file of a newly formatted CP/M drive D. This forces the file to be contiguous and reside on CF track $c0, sector $20
 
-BadApple player resides on high 64KB RAM of Simple80. To load this file into high memory, enter the following 2 commands at monitor prompt:
+[BadApple player](badapple_player_hiram.zip) resides on high 64KB RAM of Simple80. To load this file into high memory, enter the following 2 commands at monitor prompt:
 
-o 11 03
+- o 11 03
+- o 40 03
+- Then load BadAppleVGAHiRAM.hex and start execution from $1000.
 
-o 40 03
+[BadApple player](badapple_player_loram.zip) resides on default low 64KB RAM of Simple80. Load BadAppleVGALoRAM.hex and execute from $1000
 
-Then load BadAppleVGAHiRAM.hex and start execution from $1000.
+[VGAxRAM splash](vgaxram_splash.zip), display a screenful of text on VGA monitor. Load VGAxRAM_splash.hex and execute from $1000
 
-BadApple player resides on default low 64KB RAM of Simple80. Load BadAppleVGALoRAM.hex and execute from $1000
 
-VGAxRAM splash, display a screenful of text on VGA monitor. Load VGAxRAM_splash.hex and execute from $1000
-
-builderpages/plasmo/simple80/simple80_project/bad
